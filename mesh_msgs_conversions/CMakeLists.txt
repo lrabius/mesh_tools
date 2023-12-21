@@ -67,7 +67,7 @@ install(
   DESTINATION include
 )
 
-ament_export_include_directories("include/${PROJECT_NAME}")
+ament_export_include_directories(include)
 ament_export_libraries(${PROJECT_NAME})
 
 # Export modern CMake targets
